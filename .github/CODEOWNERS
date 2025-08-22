@@ -1,0 +1,40 @@
+# CODEOWNERS file for logging-client-1
+# Global owners - will be requested for all PRs
+* @Armor-test/team-ux @Armor-test/squad-network @Armor-test/dept-database
+
+# Directory ownership
+/extensions/ @Armor-test/grp-reporting @Armor-test/team-content
+/controllers/ @Armor-test/grp-notifications @Armor-test/team-support @Armor-test/squad-notifications
+/helpers/ @Armor-test/unit-mobile @Armor-test/dept-database @Armor-test/dept-payments
+/services/ @Armor-test/dept-messaging @Armor-test/dept-qa @Armor-test/unit-mobile
+/internal/ @Armor-test/squad-security @Armor-test/grp-release @Armor-test/unit-logging
+/pages/ @Armor-test/team-logging @Armor-test/dept-database @Armor-test/dept-qa
+/shared/ @Armor-test/unit-logging @Armor-test/dept-devops
+/src/ @Armor-test/dept-payments @Armor-test/squad-network
+/config/ @Armor-test/grp-sre @Armor-test/team-core @Armor-test/grp-payments
+/test/ @Armor-test/unit-logging @Armor-test/squad-ui
+/auth/ @Armor-test/unit-logging @Armor-test/grp-release
+/dist/ @Armor-test/team-research @Armor-test/dept-ui
+/models/ @Armor-test/dept-billing @Armor-test/dept-network @Armor-test/team-ux
+
+# File type ownership
+*.html @Armor-test/squad-automation @Armor-test/dept-qa
+*.swift @Armor-test/team-auth @Armor-test/grp-reporting @Armor-test/team-ux
+*.graphql @Armor-test/grp-reporting @Armor-test/squad-storage @Armor-test/unit-mobile
+*.cpp @Armor-test/squad-automation @Armor-test/dept-devops
+*.scss @Armor-test/squad-security @Armor-test/unit-ux @Armor-test/grp-product
+*.yaml @Armor-test/team-support @Armor-test/team-content @Armor-test/squad-security
+*.js @Armor-test/team-product @Armor-test/squad-security @Armor-test/squad-search
+*.py @Armor-test/unit-search @Armor-test/grp-sre @Armor-test/grp-product
+*.go @Armor-test/team-core @Armor-test/dept-billing
+*.toml @Armor-test/grp-release @Armor-test/dept-qa @Armor-test/unit-storage
+*.json @Armor-test/grp-payments @Armor-test/squad-storage
+*.tsx @Armor-test/dept-qa @Armor-test/squad-ui
+*.kt @Armor-test/team-product @Armor-test/team-qa @Armor-test/grp-release
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
